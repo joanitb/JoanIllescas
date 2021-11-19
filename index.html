@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Creado por JCIBravo">
+    <link rel="icon" href="favicon.ico">
+    <title>JCIBravo</title>
+</head>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: black; color: white;">
+    <script>
+        var clicks = 0;
+        function comerGalleta() {
+        clicks += 1;
+        document.getElementById("clicks").innerHTML = clicks;
+            if (clicks >= 3){
+            document.getElementById("galletasuwu").innerHTML = "Veo que te gustan! :D";}
+            if (clicks >= 5){
+            document.getElementById("galletasuwu").innerHTML = "Heh... Me dejarás un poco, no? 'X)";}
+            if (clicks >= 10){
+            document.getElementById("galletasuwu").innerHTML = "Ugh... Ya basta no? (._.)";}
+            if (clicks >= 13){
+            document.getElementById("galletasuwu").innerHTML = "Ya, no!?? (>`-´<\")";}
+            if (clicks >= 16){
+            document.getElementById("clicks").innerHTML = "BUENO YA ESTÁ, SUFICIENTE D:<";
+            document.getElementById('galletasuwu').style.visibility = 'hidden';}
+        }
+    </script>
+    <h1>Jelou <b style="color: red;">Güorld</b></h1>
+    <h2>Güí arr jíer</h2>
+    <p>Empezamos a trabajar HTML</p>
+    <i>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam officia corporis perferendis, cumque quae culpa deserunt? Hic cupiditate quos culpa quia suscipit et ea veritatis ullam. In perferendis mollitia voluptatum.</i>
+    <br><button onclick="window.location.href='ejercicio2.html'">Práctica 2</button>
+    <br><button onclick="window.location.href='ejercicio3.html'">Práctica 3</button><b>&lt;--- cuidao, que no hay botón para volver</b>
+    <header>
+        <nav>
+            <ul>
+                <li>Cosa 1</li>
+                <li>Cosa 2</li>
+                <li>Cosa 3</li>
+                <li>Cosa 4</li>
+            </ul>
+        </nav>
+        <nav>
+            <ol>
+                <li>Cosa</li>
+                <li>Otra cosa</li>
+                <li><a href="http://randomcolour.com/" target="_blank">Otra otra cosa</a></li>
+                <li>Otra otra otra cosa</li>
+            </ol>
+        </nav>
+    </header>
+    <h3>Ay, olvidé decirte que horneé cookies <i>(de nueces)</i>, las aceptas?</h3>
+    <button type="button" onClick="comerGalleta()" id="galletasuwu">Oooooh si las acepto! Dame una! ^-^)/</button>
+    <p><small>Contador de galletas comidas: <a id="clicks">0</a></small></p> 
+    <button type="button" onclick="alert('Vaya :\'[');">Tengo alergia a los frutos secos :(</button>
+    <button type="button" disabled>Rechazo las cookies MUAJAJAJAJAJJA >:D</button>
+    <br><br><br><br><button onclick="window.location.href='cosas/index.html'">Mira estas cosicas :]</button>
+</body>
+</html>
