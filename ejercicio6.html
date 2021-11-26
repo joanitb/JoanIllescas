@@ -14,7 +14,7 @@
     <h1>¿Habéis sido buenos...?</h1>
     <form action="index.html" method="get">
         <h3>Datos Personales:</h3>
-        <label for="lname">Nº Documento</label>
+        <label>Nº Documento</label>
         <select>
             <option>Seleccione...</option>
             <option>DNI</option>
@@ -24,20 +24,20 @@
             <option>Pasaporte COVID</option>
         </select>
         <input type="text"><br><br>
-        <label for="fname">Nombre</label>
+        <label>Nombre</label>
         <input type="text"><br><br>
-        <label for="lname">1r Apellido</label>
+        <label>1r Apellido</label>
         <input type="text"><br><br>
-        <label for="lname">2o Apellido</label>
+        <label>2o Apellido</label>
         <input type="text"><br><br>
-        <label for="lname">3r Apellido (opcional)</label>
+        <label>3r Apellido (opcional)</label>
         <input type="text"><br><br>
-        <label for="lname">Número de teléfono</label>
-        <input type="text"><br><br>
-        <label for="lname">Correo electrónico</label>
-        <input type="text"><br><br>
+        <label>Número de teléfono</label>
+        <input type="tel"><br><br>
+        <label>Correo electrónico</label>
+        <input type="email"><br><br>
         <h3>Dirección Fiscal</h3>
-        <label for="lname">País de Nacimiento</label>
+        <label>País de Nacimiento</label>
         <select>
             <option>Seleccione...</option>
             <option>Afganistán</option>
@@ -238,7 +238,7 @@
             <option>Zimbaue</option>
         </select><br><br>
         <h4>Si usted reside en España, rellene la siguiente información:</h4>
-        <label for="lname">Tipo de vía:</label>
+        <label>Tipo de vía:</label>
         <select>
             <option>Seleccione...</option>
             <option>Acera</option>
@@ -332,12 +332,12 @@
             <option>Zona</option>
             <option>Otros...</option>
         </select>
-        <label for="lname">Nombre de la vía</label>
+        <label>Nombre de la vía</label>
         <input type="text">
-        <label for="lname">Número de la vía</label><br>
-        <input type="number" maxLength="3"><br><br>
-        <label><input type="checkbox"> Número Bis</label>
-        <label for="lname">Comunidad (o Ciudad) Autónoma</label>
+        <label>Número de la vía</label>
+        <input type="number" maxLength="3" size="2"><br>
+        <label><input type="checkbox"> Número Bis</label><br><br>
+        <label>Comunidad (o Ciudad) Autónoma</label>
         <select>
             <option>Seleccione...</option>
             <option>Andalucía</option>
@@ -359,18 +359,21 @@
             <option>Ceuta</option>
             <option>Melilla</option>
         </select><br><br>
-        <label for="lname">Código Postal</label>
+        <label>Código Postal</label>
         <input type="number" maxLength="5"><br><br>
-        <label for="lname">Escalera</label>
+        <label>Escalera</label>
         <input type="number" maxLength="2"><br><br>
-        <label for="lname">Bloque</label>
+        <label>Bloque</label>
         <input type="number" maxLength="2"><br><br>
-        <label for="lname">Piso</label>
+        <label>Piso</label>
         <input type="number" maxLength="2"><br><br>
-        <label for="lname">Puerta</label>
+        <label>Puerta</label>
         <input type="text" maxLength="2"><br><br>
-        <input type="submit" value="Submit">
+    <h4>Su carta:</h4>
+        <label>Escribale algo a SS. MM. los Reyes de Oriente:</label><br>
+        <textarea rows="10" cols="100"></textarea><br>
+        <button value="submit" type="submit">Enviar</button>
     </form>
-    <br>
+    <br><br><br>
 </body>
 </html>
