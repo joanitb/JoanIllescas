@@ -1,0 +1,60 @@
+h1{
+    color: #FF1700;
+}
+
+h2{
+    color: #808080;
+    text-decoration: underline;
+    font-weight: bolder;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2~h2{
+    color: #686868;
+}
+
+h2~h2~h2{
+    color: #363636;
+}
+
+h2~h2~h2~h2{
+    color: #111111;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+
+p~p{
+    font-style: normal;
+}
+
+.Franky{
+    background-color: green;
+    color: darkgrey;
+}
+
+.Avi{
+    background-color: aqua;
+    color: blue;
+}
+
+.Boris{
+    background-color: greenyellow;
+    color: red;
+}
+
+.Tony{
+    background-color: red;
+    color: greenyellow;
+}
+
+li{
+    list-style-type: upper-roman;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: green;
+}
